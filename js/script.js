@@ -155,7 +155,7 @@ const checkEat = () => {
     food.y = y;
     food.color = randomColor();
 
-    velocidade = velocidade > 95 ? velocidade * (1 - 0.01 * snake.length) : 80;
+    // velocidade = velocidade > 95 ? velocidade * (1 - 0.01 * snake.length) : 80;
   }
 };
 
@@ -230,7 +230,7 @@ document.addEventListener("keydown", ({ key }) => {
 buttonPlay.addEventListener("click", () => {
   //zera as propriedades e placar
   score.innerText = "00";
-  speed.innerText = "220";
+  speed.innerText = "150";
   menu.style.display = "none";
   canvas.style.filter = "none";
 
